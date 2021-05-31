@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.less';
-import App from './App';
+import ReactMap from './router';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+    <ReactMap />
+  </div>,
   document.getElementById('root')
 );
 
